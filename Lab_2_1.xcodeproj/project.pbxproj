@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		6D440E2C2808FB77005BA5DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D440E2B2808FB77005BA5DE /* AppDelegate.swift */; };
 		6D440E2E2808FB77005BA5DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D440E2D2808FB77005BA5DE /* SceneDelegate.swift */; };
-		6D440E302808FB77005BA5DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D440E2F2808FB77005BA5DE /* ViewController.swift */; };
-		6D440E332808FB77005BA5DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D440E312808FB77005BA5DE /* Main.storyboard */; };
 		6D440E352808FB79005BA5DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D440E342808FB79005BA5DE /* Assets.xcassets */; };
 		6D440E382808FB79005BA5DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D440E362808FB79005BA5DE /* LaunchScreen.storyboard */; };
+		6D440E432808FD00005BA5DE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D440E422808FD00005BA5DE /* TableViewController.swift */; };
+		6D440E452808FFC6005BA5DE /* GetGroceriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D440E442808FFC6005BA5DE /* GetGroceriesTableViewCell.swift */; };
+		6D440E47280902C2005BA5DE /* RemindMeOnADayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D440E46280902C2005BA5DE /* RemindMeOnADayTableViewCell.swift */; };
+		6D440E4928090422005BA5DE /* DateRepresentationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D440E4828090422005BA5DE /* DateRepresentationTableViewCell.swift */; };
+		6D440E4B280904C1005BA5DE /* DatePickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D440E4A280904C1005BA5DE /* DatePickerTableViewCell.swift */; };
+		6D440E4D28090647005BA5DE /* RemindMeALocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D440E4C28090647005BA5DE /* RemindMeALocationTableViewCell.swift */; };
+		6D440E4F28090A35005BA5DE /* RepeatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D440E4E28090A35005BA5DE /* RepeatTableViewCell.swift */; };
+		6D440E5128090BCB005BA5DE /* PriorityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D440E5028090BCB005BA5DE /* PriorityTableViewCell.swift */; };
+		6D440E5328090E08005BA5DE /* NotesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D440E5228090E08005BA5DE /* NotesTableViewCell.swift */; };
+		6E6154846BB9D2E3B58EBD28 /* Pods_Lab_2_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5BB4415E65177683868DF8 /* Pods_Lab_2_1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2508A6621C2B14C92D8112B3 /* Pods-Lab_2_1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lab_2_1.debug.xcconfig"; path = "Target Support Files/Pods-Lab_2_1/Pods-Lab_2_1.debug.xcconfig"; sourceTree = "<group>"; };
+		2B5BB4415E65177683868DF8 /* Pods_Lab_2_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lab_2_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D440E282808FB77005BA5DE /* Lab_2_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab_2_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D440E2B2808FB77005BA5DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D440E2D2808FB77005BA5DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6D440E2F2808FB77005BA5DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6D440E322808FB77005BA5DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D440E342808FB79005BA5DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D440E372808FB79005BA5DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D440E392808FB79005BA5DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D440E422808FD00005BA5DE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		6D440E442808FFC6005BA5DE /* GetGroceriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetGroceriesTableViewCell.swift; sourceTree = "<group>"; };
+		6D440E46280902C2005BA5DE /* RemindMeOnADayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindMeOnADayTableViewCell.swift; sourceTree = "<group>"; };
+		6D440E4828090422005BA5DE /* DateRepresentationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateRepresentationTableViewCell.swift; sourceTree = "<group>"; };
+		6D440E4A280904C1005BA5DE /* DatePickerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerTableViewCell.swift; sourceTree = "<group>"; };
+		6D440E4C28090647005BA5DE /* RemindMeALocationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindMeALocationTableViewCell.swift; sourceTree = "<group>"; };
+		6D440E4E28090A35005BA5DE /* RepeatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatTableViewCell.swift; sourceTree = "<group>"; };
+		6D440E5028090BCB005BA5DE /* PriorityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityTableViewCell.swift; sourceTree = "<group>"; };
+		6D440E5228090E08005BA5DE /* NotesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTableViewCell.swift; sourceTree = "<group>"; };
+		AE60CDBDF6EDF1C59B5C7DFC /* Pods-Lab_2_1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lab_2_1.release.xcconfig"; path = "Target Support Files/Pods-Lab_2_1/Pods-Lab_2_1.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E6154846BB9D2E3B58EBD28 /* Pods_Lab_2_1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35CBCC43C01699C096A1AF83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2508A6621C2B14C92D8112B3 /* Pods-Lab_2_1.debug.xcconfig */,
+				AE60CDBDF6EDF1C59B5C7DFC /* Pods-Lab_2_1.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6D440E1F2808FB77005BA5DE = {
 			isa = PBXGroup;
 			children = (
 				6D440E2A2808FB77005BA5DE /* Lab_2_1 */,
 				6D440E292808FB77005BA5DE /* Products */,
+				35CBCC43C01699C096A1AF83 /* Pods */,
+				A1E0B76585D746C0EA37C6A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +86,54 @@
 		6D440E2A2808FB77005BA5DE /* Lab_2_1 */ = {
 			isa = PBXGroup;
 			children = (
+				6D440E412808FCEC005BA5DE /* Model */,
+				6D440E402808FCE7005BA5DE /* VIew */,
+				6D440E3F2808FCD8005BA5DE /* Controller */,
 				6D440E2B2808FB77005BA5DE /* AppDelegate.swift */,
 				6D440E2D2808FB77005BA5DE /* SceneDelegate.swift */,
-				6D440E2F2808FB77005BA5DE /* ViewController.swift */,
-				6D440E312808FB77005BA5DE /* Main.storyboard */,
 				6D440E342808FB79005BA5DE /* Assets.xcassets */,
 				6D440E362808FB79005BA5DE /* LaunchScreen.storyboard */,
 				6D440E392808FB79005BA5DE /* Info.plist */,
 			);
 			path = Lab_2_1;
+			sourceTree = "<group>";
+		};
+		6D440E3F2808FCD8005BA5DE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6D440E422808FD00005BA5DE /* TableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6D440E402808FCE7005BA5DE /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				6D440E442808FFC6005BA5DE /* GetGroceriesTableViewCell.swift */,
+				6D440E46280902C2005BA5DE /* RemindMeOnADayTableViewCell.swift */,
+				6D440E4828090422005BA5DE /* DateRepresentationTableViewCell.swift */,
+				6D440E4A280904C1005BA5DE /* DatePickerTableViewCell.swift */,
+				6D440E4E28090A35005BA5DE /* RepeatTableViewCell.swift */,
+				6D440E4C28090647005BA5DE /* RemindMeALocationTableViewCell.swift */,
+				6D440E5028090BCB005BA5DE /* PriorityTableViewCell.swift */,
+				6D440E5228090E08005BA5DE /* NotesTableViewCell.swift */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		6D440E412808FCEC005BA5DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A1E0B76585D746C0EA37C6A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B5BB4415E65177683868DF8 /* Pods_Lab_2_1.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D440E3C2808FB79005BA5DE /* Build configuration list for PBXNativeTarget "Lab_2_1" */;
 			buildPhases = (
+				290C187F526C77D8A928C3E6 /* [CP] Check Pods Manifest.lock */,
 				6D440E242808FB77005BA5DE /* Sources */,
 				6D440E252808FB77005BA5DE /* Frameworks */,
 				6D440E262808FB77005BA5DE /* Resources */,
+				4E2252C9B317CCBE96178201 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,19 +198,68 @@
 			files = (
 				6D440E382808FB79005BA5DE /* LaunchScreen.storyboard in Resources */,
 				6D440E352808FB79005BA5DE /* Assets.xcassets in Resources */,
-				6D440E332808FB77005BA5DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		290C187F526C77D8A928C3E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lab_2_1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E2252C9B317CCBE96178201 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lab_2_1/Pods-Lab_2_1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lab_2_1/Pods-Lab_2_1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lab_2_1/Pods-Lab_2_1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6D440E242808FB77005BA5DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D440E302808FB77005BA5DE /* ViewController.swift in Sources */,
+				6D440E452808FFC6005BA5DE /* GetGroceriesTableViewCell.swift in Sources */,
 				6D440E2C2808FB77005BA5DE /* AppDelegate.swift in Sources */,
+				6D440E4928090422005BA5DE /* DateRepresentationTableViewCell.swift in Sources */,
+				6D440E47280902C2005BA5DE /* RemindMeOnADayTableViewCell.swift in Sources */,
+				6D440E5328090E08005BA5DE /* NotesTableViewCell.swift in Sources */,
+				6D440E432808FD00005BA5DE /* TableViewController.swift in Sources */,
+				6D440E4D28090647005BA5DE /* RemindMeALocationTableViewCell.swift in Sources */,
+				6D440E4F28090A35005BA5DE /* RepeatTableViewCell.swift in Sources */,
+				6D440E5128090BCB005BA5DE /* PriorityTableViewCell.swift in Sources */,
+				6D440E4B280904C1005BA5DE /* DatePickerTableViewCell.swift in Sources */,
 				6D440E2E2808FB77005BA5DE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +267,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6D440E312808FB77005BA5DE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6D440E322808FB77005BA5DE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6D440E362808FB79005BA5DE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +394,7 @@
 		};
 		6D440E3D2808FB79005BA5DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2508A6621C2B14C92D8112B3 /* Pods-Lab_2_1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +405,6 @@
 				INFOPLIST_FILE = Lab_2_1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +422,7 @@
 		};
 		6D440E3E2808FB79005BA5DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE60CDBDF6EDF1C59B5C7DFC /* Pods-Lab_2_1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +433,6 @@
 				INFOPLIST_FILE = Lab_2_1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
